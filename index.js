@@ -3004,7 +3004,7 @@ function BeeSwarmSimulator(DATA){
         
         looker:{
             
-            u:128/2048,v:0,meshPartId:0,gatherSpeed:4,gatherAmount:13,speed:14,tokens:['focus'],convertSpeed:4,convertAmount:160,attack:1,attackTokens:['focus'],energy:20,favoriteTreat:'sunflowerSeed',rarity:'rare',color:'white',description:'This silent bee is always watching and gaining valuable insights.',giftedHiveBonus:{oper:'+',stat:'criticalPower',num:0.25}
+            u:128/2048,v:0,meshPartId:0,gatherSpeed:4,gatherAmount:13,speed:0,tokens:['focus'],convertSpeed:0,convertAmount:Infinity,attack:1,attackTokens:['focus'],energy:20,favoriteTreat:'sunflowerSeed',rarity:'rare',color:'white',description:'This silent bee is always watching and gaining valuable insights.',giftedHiveBonus:{oper:'+',stat:'criticalPower',num:0.25}
         },
         
         music:{
@@ -34760,6 +34760,7 @@ function BeeSwarmSimulator(DATA){
     
 
 }
+
 
 
 
