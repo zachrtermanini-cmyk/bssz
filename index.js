@@ -26666,7 +26666,7 @@ function BeeSwarmSimulator(DATA){
             }
 
             if((user.clickedKeys['p']||touchedJumped)&&out.currentGear.glider!=='none'){
-                
+                out.grounded=false
                 if(!out.isGliding){
                     
                     out.isGliding=true
@@ -34760,6 +34760,7 @@ function BeeSwarmSimulator(DATA){
     
 
 }
+
 
 
 
