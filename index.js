@@ -34760,32 +34760,3 @@ function BeeSwarmSimulator(DATA){
     
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
